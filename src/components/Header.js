@@ -13,7 +13,10 @@ const Header = () => {
           backSpeed={60}
           loop
         ></Typed>
-        <a href="#" className="btn know-me">
+        <a
+          href="https://drive.google.com/uc?export=download&id=1SkuLIxCRI0x7QX71RJmP1zZ7E8T-VehU"
+          className="btn know-me"
+        >
           Download Resume
         </a>
       </div>
