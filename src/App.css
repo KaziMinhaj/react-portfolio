@@ -2,6 +2,10 @@ body {
   font-family: "Roboto Condensed" sans-serif;
 }
 
+.color {
+  color: #f9ab00;
+}
+
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
@@ -57,14 +61,14 @@ nav ul li {
   background: url(solidbg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 120vh;
 }
 .projects {
   position: relative;
   background: url(solidbg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 180vh;
 }
 .main-info {
   position: absolute;
@@ -134,4 +138,28 @@ nav {
 
 .about-me {
   background-color: whitesmoke;
+}
+.mono-font {
+  font-family: "Roboto Mono", monospace;
+}
+
+.alink {
+  text-decoration: none;
+  color: var(--primary-orange);
+}
+
+.contact {
+  position: relative;
+  background: url(solidbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.footer {
+  position: relative;
+  background: url(solidbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
 }

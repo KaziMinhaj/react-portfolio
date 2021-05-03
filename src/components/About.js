@@ -3,7 +3,7 @@ import kazi from "../images/kazi2.jpg";
 
 const About = () => {
   return (
-    <div className="about-me">
+    <div id="about" className="about-me">
       <div className="container">
         <div style={{ height: "75vh" }} className="row p-5">
           <div className="col-md-6 text-center">
