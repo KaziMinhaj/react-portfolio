@@ -4,11 +4,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <div class="container-fluid">
-          {/* <a class="navbar-brand" href="#" style={{ color: "#fff" }}>
-            Navbar
+        <div className="container-fluid">
+          {/* <a className="nav-brand" href="#" style={{ color: "#fff" }}>
+            <img className="logo" src={logo} alt="" />
           </a> */}
           <button
             class="navbar-toggler"

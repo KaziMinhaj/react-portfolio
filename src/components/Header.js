@@ -19,6 +19,9 @@ const Header = () => {
         >
           Download Resume
         </a>
+        <a href="mailto:kaziminhajulhaider@gmail.com" className="btn know-me">
+          Contact Me
+        </a>
       </div>
     </div>
   );

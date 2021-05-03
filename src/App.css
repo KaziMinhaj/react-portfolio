@@ -18,6 +18,15 @@ nav a.nav-link {
 nav ul li {
   text-transform: uppercase;
 }
+/* .nav-brand {
+  letter-spacing: 0.0375rem;
+  text-transform: uppercase;
+  text-decoration: none;
+} */
+
+/* .logo {
+  width: 16rem;
+} */
 
 .navbar-nav > li > a {
   margin-right: 0.75rem;
@@ -37,12 +46,26 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(bg3.jpg) no-repeat;
+  background: url(solidbg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
 }
 
+.about-me {
+  position: relative;
+  background: url(solidbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.projects {
+  position: relative;
+  background: url(solidbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
 .main-info {
   position: absolute;
   top: 0;
@@ -79,7 +102,7 @@ nav ul li {
 
 .know-me {
   border: 1px solid var(--primary-orange);
-  border-radius: 0;
+  border-radius: 1;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   text-transform: uppercase;
   color: var(--primary-white);
@@ -88,8 +111,8 @@ nav ul li {
 
 .know-me:hover {
   text-decoration: none;
-  color: var(--primary-white);
-  background-color: var(--primary-hover-red);
+  color: black;
+  background-color: var(--primary-orange);
   transition: 0.2s ease-in-out;
 }
 
@@ -107,4 +130,8 @@ nav {
   .particles-canvas {
     display: none;
   }
+}
+
+.about-me {
+  background-color: whitesmoke;
 }

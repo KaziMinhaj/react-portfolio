@@ -1,7 +1,9 @@
 import Particles from "react-particles-js";
 import "./App.css";
+import About from "./components/About";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       ></Particles>
       <Navbar></Navbar>
       <Header></Header>
+      <About></About>
+      <Projects></Projects>
     </div>
   );
 }
