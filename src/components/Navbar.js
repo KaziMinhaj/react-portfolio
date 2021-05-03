@@ -22,7 +22,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faBars} style={{ color: "#fff " }} />
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="#">
                   Home

@@ -31,7 +31,7 @@ const About = () => {
               <div className="row text-light">
                 <div className="col-md-6">
                   <div>
-                    <ul>
+                    <ul className="myul">
                       <li>React.js</li>
                       <li>Express.js</li>
                       <li>MongoDB</li>
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
                 <div className="col md 6">
                   <div>
-                    <ul>
+                    <ul className="myul">
                       <li>MaterialUI</li>
                       <li>ES6/7</li>
                       <li>Firebase</li>

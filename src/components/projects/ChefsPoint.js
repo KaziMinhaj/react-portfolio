@@ -8,7 +8,7 @@ const ChefsPoint = () => {
   return (
     <div className="container mb-5">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 m-2">
           <a
             className="m-5 alink"
             href="https://auth-recape-61d73.web.app"
@@ -23,7 +23,7 @@ const ChefsPoint = () => {
             />
           </a>
         </div>
-        <div className="col-md-5 ">
+        <div className="col-md-5 m-2 m-1">
           <div className=" bg-dark rounded p-4">
             <h1 className="color p-2 ">Chefs Point</h1>
 

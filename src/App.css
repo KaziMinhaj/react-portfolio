@@ -61,7 +61,13 @@ nav ul li {
   background: url(solidbg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 80vh;
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    height: 120vh;
+  }
 }
 .projects {
   position: relative;
@@ -69,6 +75,16 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 180vh;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    position: relative;
+    background: url(solidbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270vh;
+  }
 }
 .main-info {
   position: absolute;
@@ -80,7 +96,6 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   font-family: "Roboto Condensed" sans-serif;
   z-index: 1;
 }
@@ -110,7 +125,7 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   text-transform: uppercase;
   color: var(--primary-white);
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .know-me:hover {
@@ -162,4 +177,8 @@ nav {
   background-size: cover;
   background-position: center;
   height: 10vh;
+}
+
+ul.myul {
+  list-style-type: square;
 }
